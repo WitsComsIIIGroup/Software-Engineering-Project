@@ -18,8 +18,8 @@ def readIn(fileInput):
 		lineNumber += 1;
 		line = CheckFormat.checkFormat(line, lineNumber);
 		
-		key.append(line.split(',')[0].rstrip());
-		fullName.append(line.split(',')[1].rstrip());
+		key.append(line.split(', ')[0].rstrip());
+		fullName.append(line.split(', ')[1].rstrip());
 			
 	return [key, fullName];
 

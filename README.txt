@@ -10,7 +10,15 @@ CONTENT:
 -Running the product
 -Running Tests
 -General Notes
+---------------------------------------------------------------
+GIT CLONE
 
+This project is available via an online GIT repository.
+
+From terminal execute the following command:
+git clone https://github.com/WitsComsIIIGroup/Software-Engineering-Project.git
+
+This will clone the repository into the directory you are currently in.
 ---------------------------------------------------------------
 
 DESCRIPTION:
