@@ -15,7 +15,7 @@ def store(key, firstName, lastName):
 	conCursor.execute("Delete from People");
 
 	#Store Data
-	for i in range(0, len(key) - 1):
+	for i in range(0, len(key)):
 		sKey = key[i];
 		sFirst = firstName[i];
 		sLast = lastName[i];

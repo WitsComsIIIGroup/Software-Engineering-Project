@@ -91,4 +91,5 @@ outputFileDir = 'Files/lab3Output.txt'
 OutputFile.writeFile(key, firstName, lastName, outputFileDir);
 
 #PrintOutFile
+print("First 15 and Last 15 Sorted Names")
 TerminalPrint.PrintOutFile();

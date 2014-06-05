@@ -23,4 +23,19 @@ def readData():
 		firstName.append(record[1]);
 		lastName.append(record[2]);
 
+	#Print Unsorted content
+	print("First 15 and Last 15 Unsorted Names");
+	if len(key) >= 15:
+		for i in range(15):
+			print (key[i] + ": " + lastName[i] + " " + firstName[i]);
+		
+		print ("*****************************************************");
+		
+		for i in range(len(key)-15, len(key)):
+			print (key[i] + ": " + lastName[i] + " " + firstName[i]);
+	
+	else:
+		for i in range(len(key)):
+			print (key[i] + ": " + lastName[i] + " " + firstName[i]);
+
 	return [key, firstName, lastName];
