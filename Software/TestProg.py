@@ -54,6 +54,23 @@ key = extContent[0];
 firstName = extContent[1];
 lastName = extContent[2];
 
+#Display1st 15 and last 15 raw entries
+print "1st and last 15 entries (Unsorted)"
+
+if len(key) >= 15:
+    for i in range(15):
+        print (key[i] + ":" + firstName[i] + " " + lastName[i]);
+		
+        print ("*****************************************************");
+		
+        for i in range(len(key)-15,len(key)):
+            print (key[i] + ":" + firstName[i] + " " + lastName[i]);
+
+else:
+    for i in range(len(key)):
+        print (key[i] + ":" + firstName[i] + " " + lastName[i]);
+
+
 #Sort
 sortArray = [];
 
